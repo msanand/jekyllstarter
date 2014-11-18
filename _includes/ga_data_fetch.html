@@ -1,0 +1,66 @@
+<script>
+    var jqxhr = $.ajax("{{site.google_analytics.super_proxy_url}}")
+          .done(function(response) {
+              if (response !== undefined) {
+                var page_url = "{{ page.url }}";
+                var page_views = undefined;
+                var total_views = undefined;
+                var oPageViews = {};
+
+                var total_views = response.totalsForAllResults['ga:pageviews'];
+
+                var pagePathIndex;
+                var pageViewsIndex;
+
+                function findColumnHeaders(element, index, array) {
+                  switch (element.name) {
+                    case "ga:pagePath":
+                      pagePathIndex = index;
+                      return;
+                    case "ga:pageviews":
+                      pageViewsIndex = index;
+                      return;
+                  }
+                }
+
+                response.columnHeaders.forEach(findColumnHeaders);
+
+                if (total_views !== undefined && total_views !== null &&  $("#ga-totalpageviews-div")) {
+                    $("#ga-totalpageviews").html("Views: " + total_views);
+                }
+
+                if (response.rows !== undefined) {
+                  jQuery.each(response.rows, function(index, row){
+                      var ga_page_url = row[pagePathIndex];
+                      if (page_url.lastIndexOf("/") === (page_url.length - 1)) {
+                        page_url = page_url + "index.html";
+                      }
+                      if (ga_page_url === page_url) {
+                          page_views = row[pageViewsIndex];
+                          if (page_views !== undefined && page_views !== null && $("#ga-pageviews-div")) {
+                              $("#ga-pageviews").html("Views: " + page_views);
+                          }
+                      }
+
+                      oPageViews[ga_page_url] = row[pageViewsIndex];
+
+                  });
+
+                  $('span[data-post-url]').each(function(index) {
+                    var dataPostUrl = $(this).attr("data-post-url");
+                    if (dataPostUrl.lastIndexOf("/") === (dataPostUrl.length - 1)) {
+                      dataPostUrl = dataPostUrl + "index.html";
+                    }
+
+                    if (oPageViews[dataPostUrl] !== undefined && oPageViews[dataPostUrl] !== null ) {
+                      $(this).html("Views: " + oPageViews[dataPostUrl]);
+                    }
+
+                  });
+                }
+              }
+          })
+          .fail(function(error) {
+              console.log( "Failed to get GA data" );
+          });
+</script>

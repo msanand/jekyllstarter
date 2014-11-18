@@ -1,0 +1,47 @@
+# Dependencies
+markdown:         redcarpet
+redcarpet:
+  extensions:     [strikethrough,smart,with_toc_data]
+highlighter:      pygments
+
+# Permalinks
+permalink:        /posts/:title/
+
+# User Configuration
+title:            JEKYLL KICKSTART
+tagline:          'A bootstrap for Jekyll'
+description:      'Some random stuff about me'
+url:              http://jekyll-kickstart.gihub.io
+baseurl:          '/'
+paginate:         3
+excerpt_separator: '<br>'
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+
+# Author Info
+author:
+  name:           'Jekyll Kickstart'
+  url:            your_web_url
+
+# Social Integration
+social:
+  twitter:        your_twitter_handle
+  disqus:         your_disqus_id
+  addthis_pubid:  your_addthis_pubid
+
+# Google Analytics Configuration
+# Proxy response must be in JSON and should have the fields - ga:pagePath, ga:pageview
+google_analytics:
+  tracking_id:      your_google_analytics_tracking_id
+  super_proxy_url:  your_super_proxy_url
+
+# Github
+github:
+  repo:           your_github_repo
+  feedback:       your_github_repo_issues_page_url
+
+# Version Info
+version:          0.0.5

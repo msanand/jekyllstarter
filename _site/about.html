@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      About Me &middot; Jekyll Kickstart
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/all.min.css">
+  <!--
+  <link rel="stylesheet" href="/assets/css/poole.css">
+  <link rel="stylesheet" href="/assets/css/syntax.css">
+  <link rel="stylesheet" href="/assets/css/lanyon.css">
+  <link rel="stylesheet" href="/assets/css/custom.css">
+  -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="/assets/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <link rel="canonical" href="/about.html" />
+
+  <script async src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/libs/jquery.js"><\/script>')</script>
+
+</head>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'your_google_analytics_tracking_id', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  <body class="theme-base-08">
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <br>
+  <div class="smallerCircularProfilePic"></div>
+
+  <div class="sidebar-item" style="text-align:center">
+    <p>Some random stuff about me</p>
+  </div>
+
+  <nav class="sidebar-nav" style="text-align:center">
+    <a class="sidebar-nav-item" href="/">Home</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item active" href="/about.html">About Me</a>
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/archive.html">Archive</a>
+        
+      
+    
+      
+    
+      
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="/tags.html">Tags</a>
+        
+      
+    
+
+<!--     <a class="sidebar-nav-item" href="your_github_repo/archive/v0.0.5.zip">Download</a> -->
+    <!--<a class="sidebar-nav-item" href="your_github_repo">GitHub project</a>-->
+    <a class="sidebar-nav-item" target="_blank" href="your_github_repo_issues_page_url">Feedback</a>
+    <span class="sidebar-nav-item">v0.0.5</span>
+  </nav>
+
+  <div class="sidebar-item" style="text-align:center">
+    <p>
+      <span id="ga-totalpageviews"></span>
+    </p>
+
+    <p>
+      &copy; 2014. Jekyll Kickstart.
+    </p>
+      All rights reserved.
+  </div>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container" style="text-align:center">
+          <h3 class="masthead-title">
+            <a href="/" title="Home">JEKYLL KICKSTART</a>
+            <small>A bootstrap for Jekyll</small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="page">
+  <h1 class="page-title">About Me</h1>
+  <div class="circularProfilePic"></div>
+
+<p><br></p>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+
+<script type="text/javascript">
+    var addthis_config = {
+              pubid: "your_addthis_pubid"
+        }
+</script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js"></script>
+
+<p><span class="post-date">Follow me:</span>
+<div class="addthis_horizontal_follow_toolbox"></div></p>
+
+<h3 id="something-about-yourself">Something about yourself</h3>
+
+<p>Blah blah blah&hellip;..</p>
+
+</div>
+
+
+        
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script>
+      (function(document) {
+        var toggle = document.querySelector('.sidebar-toggle');
+        var sidebar = document.querySelector('#sidebar');
+        var checkbox = document.querySelector('#sidebar-checkbox');
+
+        document.addEventListener('click', function(e) {
+          var target = e.target;
+
+          if(!checkbox.checked ||
+             sidebar.contains(target) ||
+             (target === checkbox || target === toggle)) return;
+
+          checkbox.checked = false;
+        }, false);
+      })(document);
+    </script>
+
+    <script>
+    var jqxhr = $.ajax("your_super_proxy_url")
+          .done(function(response) {
+              if (response !== undefined) {
+                var page_url = "/about.html";
+                var page_views = undefined;
+                var total_views = undefined;
+                var oPageViews = {};
+
+                var total_views = response.totalsForAllResults['ga:pageviews'];
+
+                var pagePathIndex;
+                var pageViewsIndex;
+
+                function findColumnHeaders(element, index, array) {
+                  switch (element.name) {
+                    case "ga:pagePath":
+                      pagePathIndex = index;
+                      return;
+                    case "ga:pageviews":
+                      pageViewsIndex = index;
+                      return;
+                  }
+                }
+
+                response.columnHeaders.forEach(findColumnHeaders);
+
+                if (total_views !== undefined && total_views !== null &&  $("#ga-totalpageviews-div")) {
+                    $("#ga-totalpageviews").html("Views: " + total_views);
+                }
+
+                if (response.rows !== undefined) {
+                  jQuery.each(response.rows, function(index, row){
+                      var ga_page_url = row[pagePathIndex];
+                      if (page_url.lastIndexOf("/") === (page_url.length - 1)) {
+                        page_url = page_url + "index.html";
+                      }
+                      if (ga_page_url === page_url) {
+                          page_views = row[pageViewsIndex];
+                          if (page_views !== undefined && page_views !== null && $("#ga-pageviews-div")) {
+                              $("#ga-pageviews").html("Views: " + page_views);
+                          }
+                      }
+
+                      oPageViews[ga_page_url] = row[pageViewsIndex];
+
+                  });
+
+                  $('span[data-post-url]').each(function(index) {
+                    var dataPostUrl = $(this).attr("data-post-url");
+                    if (dataPostUrl.lastIndexOf("/") === (dataPostUrl.length - 1)) {
+                      dataPostUrl = dataPostUrl + "index.html";
+                    }
+
+                    if (oPageViews[dataPostUrl] !== undefined && oPageViews[dataPostUrl] !== null ) {
+                      $(this).html("Views: " + oPageViews[dataPostUrl]);
+                    }
+
+                  });
+                }
+              }
+          })
+          .fail(function(error) {
+              console.log( "Failed to get GA data" );
+          });
+</script>
+
+
+  </body>
+</html>

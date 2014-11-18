@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/posts/hello-jekyll-kickstart/</loc>
+    <lastmod>2014-08-15T13:37:00+05:30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/404.html</loc>
+    <lastmod>2014-11-18T15:24:28+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/about.html</loc>
+    <lastmod>2014-11-18T15:24:28+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/archive.html</loc>
+    <lastmod>2014-11-18T15:24:28+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/</loc>
+    <lastmod>2014-11-18T15:24:28+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/tags.html</loc>
+    <lastmod>2014-11-18T15:24:28+05:30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/colors/example.html</loc>
+    <lastmod>2013-07-26T11:06:07Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test.html</loc>
+    <lastmod>2013-07-10T15:11:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_standalone.html</loc>
+    <lastmod>2013-07-10T15:11:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/grunt-legacy-log/node_modules/underscore.string/test/test_underscore/index.html</loc>
+    <lastmod>2013-07-11T14:09:45Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore/index.html</loc>
+    <lastmod>2013-01-30T07:43:48Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test.html</loc>
+    <lastmod>2013-07-10T15:11:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_standalone.html</loc>
+    <lastmod>2013-07-10T15:11:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/node_modules/underscore.string/test/test_underscore/index.html</loc>
+    <lastmod>2013-07-11T14:09:45Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/underscore.string/test/test.html</loc>
+    <lastmod>2013-07-10T15:11:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/underscore.string/test/test_standalone.html</loc>
+    <lastmod>2013-07-10T15:11:16Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/underscore.string/test/test_underscore/temp_tests.html</loc>
+    <lastmod>2013-07-10T16:01:52Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jekyll-kickstart.gihub.io/node_modules/grunt/node_modules/underscore.string/test/test_underscore/test.html</loc>
+    <lastmod>2013-07-10T16:01:52Z</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

@@ -1,21 +1,21 @@
 {
-  "name": "Jekyll Kickstart",
+  "name": "Jekyll Starter",
   "version": "0.0.5",
-  "description": "Jekyll boostrap project",
+  "description": "Jekyll starter project",
   "repository": {
     "type": "git",
-    "url": "git://github.com/msanand/jekyll-kickstart.git"
+    "url": "git://github.com/msanand/jekyll-starter.git"
   },
   "keywords": [
     "blog",
     "jekyll"
   ],
   "author": "Anand Mani Sankar",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/msanand/jekyll-kickstart/issues"
+    "url": "https://github.com/msanand/jekyll-starter/issues"
   },
-  "homepage": "https://github.com/msanand/jekyll-kickstart",
+  "homepage": "https://github.com/msanand/jekyll-starter",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.10.0",

@@ -13,9 +13,9 @@
   "author": "Anand Mani Sankar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/msanand/jekyll-starter/issues"
+    "url": "https://github.com/msanand/jekyllstarter/issues"
   },
-  "homepage": "https://github.com/msanand/jekyll-starter",
+  "homepage": "https://github.com/msanand/jekyllstarter",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.10.0",

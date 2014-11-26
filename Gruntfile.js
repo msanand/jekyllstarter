@@ -10,13 +10,6 @@ module.exports = function(grunt) {
             }
         }
     }
-//    jekyll: {                            // Another target
-//        options: {
-//            drafts: true,
-//            watch: true,
-//            safe: true
-//        }
-//    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-cssmin');

@@ -4,7 +4,7 @@
   "description": "Jekyll starter project",
   "repository": {
     "type": "git",
-    "url": "git://github.com/msanand/jekyll-starter.git"
+    "url": "git://github.com/msanand/jekyllstarter.git"
   },
   "keywords": [
     "blog",

@@ -41,9 +41,9 @@ Answer the questions asked by the generator, and you're blog is ready!
 
 Fork the [Jekyll Starter github repository](https://github.com/msanand/jekyllstarter) and manually alter `_config.yml` based on your requirements.
 
-To make use of the Google Analytics integration, ensure you set-up and configure the Google Analytics Super Proxy as described [here](https://developers.google.com/analytics/solutions/google-analytics-super-proxy). Also ensure that the super proxy service returns 'ga:pageviews' and 'ga:pagePath'.
+In addition, you will need a Disqus account, AddThis account and Google Analytics Tracking ID. To make use of the Google Analytics integration, ensure you set-up and configure the Google Analytics Super Proxy as described [here](https://developers.google.com/analytics/solutions/google-analytics-super-proxy). Also ensure that your super proxy returns 'ga:pageviews' and 'ga:pagePath'. (To tackle the CORS issue with super proxy, refer to my [StackOverflow response](http://stackoverflow.com/a/25758257/121241))
 
-### What is Yeoman?
+#### What is Yeoman?
 
 Trick question. It's not a thing. It's this guy:
 
@@ -59,7 +59,7 @@ npm install -g yo
 
 ### Contribution
 
-You can find the [Jekyll Starter repository on Github](https://github.com/msanand/jekyllstarter). Feel free to send a pull request.
+Feel free to send a pull request in the [Jekyll Starter repository on Github](https://github.com/msanand/jekyllstarter).
 
 ### License
 

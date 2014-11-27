@@ -21,7 +21,7 @@ This is the base on which [anandmanisankar.com](http://anandmanisankar.com) is b
 
 ##### Option 1:
 
-Use the Jekyll Starter Yeoman generator to generate your blog in a matter of seconds.
+Use the Jekyll Starter Yeoman generator to scaffold your blog in a matter of seconds.
 
 To install generator-jekyllstarter from npm, run:
 

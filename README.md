@@ -64,6 +64,10 @@ Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](
 npm install -g yo
 ```
 
+### Bugs / Feature Requests
+
+You can report issues or request new features [here](https://github.com/msanand/jekyllstarter/issues).
+
 ### Contribution
 
 Feel free to send a pull request in the [Jekyll Starter repository on Github](https://github.com/msanand/jekyllstarter).

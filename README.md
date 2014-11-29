@@ -77,4 +77,4 @@ Feel free to send a pull request in the [Jekyll Starter repository on Github](ht
 
 ### License
 
-MIT
+[MIT](https://github.com/msanand/jekyllstarter/blob/master/LICENSE)

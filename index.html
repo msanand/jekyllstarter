@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jekyll Starter by msanand</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Jekyll Starter</h1>
+        <h2>A starter project for Jekyll based blogging</h2>
+        <a href="https://github.com/msanand/jekyllstarter" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h3>
+<a id="what-is-jekyll-starter" class="anchor" href="#what-is-jekyll-starter" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Jekyll Starter?</h3>
+
+<p>Jekyll Starter is a bootstrap project for quickly creating a blog site based on <a href="http://jekyllrb.com/">Jekyll</a>. The starter project provides a foundation based on <a href="https://github.com/poole/lanyon">Lanyon</a>, which is a flavor of <a href="https://github.com/poole/poole">Poole</a>.</p>
+
+<p>In addition to the clean, minimalistic styling borrowed from Lanyon, Jekyll Starter provides the following functionality out-of-the-box:</p>
+
+<ul>
+<li>Comments using <a href="https://disqus.com/">Disqus</a>
+</li>
+<li>
+<a href="http://www.google.co.in/analytics/">Google Analytics</a> Integration with <a href="https://developers.google.com/analytics/solutions/google-analytics-super-proxy">superProxy</a>
+
+<ul>
+<li>Page view counter</li>
+<li>Website counter</li>
+</ul>
+</li>
+<li>Social sharing using <a href="http://www.addthis.com/">AddThis</a>
+</li>
+<li>Author following using <a href="http://www.addthis.com/">AddThis</a>
+</li>
+<li>Tag visualization per post</li>
+<li>Archive organized by tags</li>
+<li>Customizable profile picture in sidebar and about page</li>
+<li>
+<a href="http://gruntjs.com/">Grunt</a> based build with CSS merge and minification</li>
+</ul>
+
+<p>This is the base on which <a href="http://anandmanisankar.com">anandmanisankar.com</a> is built.</p>
+
+<h3>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<h5>
+<a id="option-1" class="anchor" href="#option-1" aria-hidden="true"><span class="octicon octicon-link"></span></a>Option 1:</h5>
+
+<p>Use the Jekyll Starter Yeoman generator to scaffold your blog in a matter of seconds.</p>
+
+<p>To install generator-jekyllstarter from npm, run:</p>
+
+<div class="highlight highlight-bash"><pre>npm install -g generator-jekyllstarter</pre></div>
+
+<p>Now, initiate the generator:</p>
+
+<div class="highlight highlight-bash"><pre>yo jekyllstarter</pre></div>
+
+<p>Answer the questions asked by the generator, and you're blog is ready!</p>
+
+<p>You can also generate a new post:</p>
+
+<div class="highlight highlight-bash"><pre>yo jekyllstarter:newpost</pre></div>
+
+<h5>
+<a id="option-2" class="anchor" href="#option-2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Option 2:</h5>
+
+<p>Fork the <a href="https://github.com/msanand/jekyllstarter">Jekyll Starter github repository</a> and manually alter <code>_config.yml</code> based on your requirements.</p>
+
+<p>In addition, you will need a Disqus account, AddThis account and Google Analytics Tracking ID. To make use of the Google Analytics integration, ensure you set-up and configure the Google Analytics Super Proxy as described <a href="https://developers.google.com/analytics/solutions/google-analytics-super-proxy">here</a>. Also ensure that your super proxy returns 'ga:pageviews' and 'ga:pagePath'. (To tackle the CORS issue with super proxy, refer to my <a href="http://stackoverflow.com/a/25758257/121241">StackOverflow response</a>)</p>
+
+<h4>
+<a id="what-is-yeoman" class="anchor" href="#what-is-yeoman" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Yeoman?</h4>
+
+<p>Trick question. It's not a thing. It's this guy:</p>
+
+<p><img src="http://i.imgur.com/JHaAlBJ.png" alt="Jekyll"></p>
+
+<p>Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.</p>
+
+<p>Not every new computer comes with a Yeoman pre-installed. He lives in the <a href="https://npmjs.org">npm</a> package repository. You only have to ask for him once, then he packs up and moves into your hard drive. <em>Make sure you clean up, he likes new and shiny things.</em></p>
+
+<div class="highlight highlight-bash"><pre>npm install -g yo</pre></div>
+
+<h3>
+<a id="contribution" class="anchor" href="#contribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribution</h3>
+
+<p>Feel free to send a pull request in the <a href="https://github.com/msanand/jekyllstarter">Jekyll Starter repository on Github</a>.</p>
+
+<h3>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h3>
+
+<p>MIT</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/msanand/jekyllstarter/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/msanand/jekyllstarter/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/msanand/jekyllstarter"></a> is maintained by <a href="https://github.com/msanand">msanand</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+            <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-53680945-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>

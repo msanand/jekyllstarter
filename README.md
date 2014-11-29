@@ -1,3 +1,6 @@
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+
+
 ### What is Jekyll Starter?
 
 Jekyll Starter is a bootstrap project for quickly creating a blog site based on [Jekyll](http://jekyllrb.com/). The starter project provides a foundation based on [Lanyon](https://github.com/poole/lanyon), which is a flavor of [Poole](https://github.com/poole/poole).
@@ -27,6 +30,9 @@ You will need a Disqus account, AddThis account and Google Analytics Tracking ID
 ##### Option 1:
 
 Use the [Jekyll Starter Yeoman generator](https://www.npmjs.org/package/generator-jekyllstarter) to scaffold your blog in a matter of seconds.
+
+[![npm version](https://badge.fury.io/js/generator-jekyllstarter.svg)](http://badge.fury.io/js/generator-jekyllstarter)
+
 
 To install generator-jekyllstarter from npm, run:
 

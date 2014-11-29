@@ -2,7 +2,7 @@
 
 Jekyll Starter is a bootstrap project for quickly creating a blog site based on [Jekyll](http://jekyllrb.com/). The starter project provides a foundation based on [Lanyon](https://github.com/poole/lanyon), which is a flavor of [Poole](https://github.com/poole/poole).
 
-In addition, it provides the following functionality out-of-the-box:
+In addition to the clean, minimalistic styling borrowed from Lanyon, Jekyll Starter provides the following functionality out-of-the-box:
 
 * Comments using [Disqus](https://disqus.com/)
 * [Google Analytics](http://www.google.co.in/analytics/) Integration with [superProxy](https://developers.google.com/analytics/solutions/google-analytics-super-proxy)
@@ -29,13 +29,20 @@ To install generator-jekyllstarter from npm, run:
 npm install -g generator-jekyllstarter
 ```
 
-Finally, initiate the generator:
+Now, initiate the generator:
 
 ```bash
 yo jekyllstarter
 ```
 
 Answer the questions asked by the generator, and you're blog is ready!
+
+You can also generate a new post:
+
+```bash
+yo jekyllstarter:newpost
+```
+
 
 ##### Option 2:
 

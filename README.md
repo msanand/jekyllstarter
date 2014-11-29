@@ -1,4 +1,4 @@
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![GitHub version](https://badge.fury.io/gh/msanand%2Fjekyllstarter.svg)](http://badge.fury.io/gh/msanand%2Fjekyllstarter) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 
 ### What is Jekyll Starter?

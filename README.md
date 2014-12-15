@@ -3,6 +3,8 @@
 
 ### What is Jekyll Starter?
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/msanand/jekyllstarter?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Jekyll Starter is a bootstrap project for quickly creating a blog site based on [Jekyll](http://jekyllrb.com/). The starter project provides a foundation based on [Lanyon](https://github.com/poole/lanyon), which is a flavor of [Poole](https://github.com/poole/poole).
 
 In addition to the clean, minimalistic styling borrowed from Lanyon, Jekyll Starter provides the following functionality out-of-the-box:

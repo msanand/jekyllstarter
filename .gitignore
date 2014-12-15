@@ -27,3 +27,13 @@ node_modules
 # Users Environment Variables
 .lock-wscript
 _site
+
+_drafts/.DS_Store
+
+_includes/.DS_Store
+
+_posts/.DS_Store
+
+.DS_Store
+
+bower_components
